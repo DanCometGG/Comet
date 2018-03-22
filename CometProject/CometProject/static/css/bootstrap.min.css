@@ -62,11 +62,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-<<<<<<< HEAD
     color: ghostwhite;
-=======
-    color: #212529;
->>>>>>> 9e607c8f13ba47b92a710eb3067866c3835c2933
     text-align: left;
     background-color: #fff
 }
@@ -3887,11 +3883,7 @@ tbody.collapse.show {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-<<<<<<< HEAD
     padding: .1rem 1rem
-=======
-    padding: .5rem 1rem
->>>>>>> 9e607c8f13ba47b92a710eb3067866c3835c2933
 }
 
 .navbar > .container, .navbar > .container-fluid {
@@ -4898,10 +4890,6 @@ tbody.collapse.show {
 .jumbotron {
     padding: 2rem 1rem;
     margin-bottom: 2rem;
-<<<<<<< HEAD
-=======
-    background-color: blue;
->>>>>>> 9e607c8f13ba47b92a710eb3067866c3835c2933
     border-radius: .3rem
 }
 
@@ -6089,11 +6077,7 @@ a.bg-light:focus, a.bg-light:hover, button.bg-light:focus, button.bg-light:hover
 }
 
 .bg-navblue {
-<<<<<<< HEAD
     background-color: rgba(13, 17, 27, 0.8)
-=======
-    background-color: #0D111B
->>>>>>> 9e607c8f13ba47b92a710eb3067866c3835c2933
 }
 
 a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
