@@ -1,5 +1,7 @@
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
-  background-color: red;
+  background: #0B0E16 url( '/static/img/cometBG.jpg' );
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 3.5rem;
 }
