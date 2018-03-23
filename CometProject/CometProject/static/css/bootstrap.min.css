@@ -1,4 +1,3 @@
- * Copyright 2011-2018 Twitter, Inc.
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -32,7 +31,7 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
-    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-sans-serif: "Helvetica Neue", BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
@@ -59,12 +58,12 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 1rem;
+    font-family: "Helvetica Neue", BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 0.85rem;
     font-weight: 400;
     line-height: 1.5;
     color: ghostwhite;
-    text-align: left;
+    text-align: center;
     background-color: #fff
 }
 
@@ -474,6 +473,69 @@ hr {
 
 code, kbd, pre, samp {
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+}
+
+@font-face {
+font-family: 'Circular Std Black';
+font-style: normal;
+font-weight: normal;
+src: local('Circular Std Black'), url('/static/css/fonts/CircularStd-Black.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Circular Std Book';
+font-style: normal;
+font-weight: normal;
+src: local('Circular Std Book'), url('/static/css/fonts/CircularStd-Book.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Circular Std Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Circular Std Medium'), url('/static/css/fonts/CircularStd-Medium.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Circular Std Black Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Circular Std Black Italic'), url('/static/css/fonts/CircularStd-BlackItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Circular Std Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Circular Std Bold'), url('/static/css/fonts/CircularStd-Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Circular Std Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Circular Std Bold Italic'), url('/static/css/fonts/CircularStd-BoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Circular Std Book Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Circular Std Book Italic'), url('/static/css/fonts/CircularStd-BookItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Circular Std Medium Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Circular Std Medium Italic'), url('/static/css/fonts/CircularStd-MediumItalic.woff') format('woff');
 }
 
 code {
@@ -3789,6 +3851,12 @@ tbody.collapse.show {
     list-style: none
 }
 
+.nav-shadow {
+    -webkit-box-shadow: 0px -19px 40px 37px rgba(0,0,0,0.56);
+    -moz-box-shadow: 0px -19px 40px 37px rgba(0,0,0,0.56);
+    box-shadow: 0px -19px 40px 37px rgba(0,0,0,0.56);
+}
+
 .nav-link {
     display: block;
     padding: .5rem 1rem
@@ -3872,6 +3940,7 @@ tbody.collapse.show {
 }
 
 .navbar {
+    font-family: "Circular Std Book";
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -6099,7 +6168,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .border-top {
-    border-top: 1px solid #dee2e6 !important
+    border-top: 0.5px solid rgba(222, 226, 230, 0.5) !important
 }
 
 .border-right {
@@ -6107,7 +6176,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .border-bottom {
-    border-bottom: 1px solid #dee2e6 !important
+    border-bottom: 0.5px solid rgba(222, 226, 230, 0.5) !important
 }
 
 .border-left {

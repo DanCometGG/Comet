@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -128,3 +129,8 @@ STATIC_DIR = [
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "CometProject/static"),
 ]
+
+# Account activation
+
+ACCOUNT_ACTIVATION_DAYS = 30
+
